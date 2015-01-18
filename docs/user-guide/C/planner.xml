@@ -487,13 +487,12 @@
     	<varlistentry>
     		<term>Command line</term>
     		<listitem>
-    		<para>To start <application>&app;</application> from a command line,
-		 type the following command, then press <keycap>Return</keycap>:</para>
-    		<para> 
-			<command>&cmd;</command> 
-    		</para> 
-    		<para> there are no command line parameters at this time.
-    		</para> 
+            <para>To start <application>&app;</application> from a command line,
+type <command>&cmd;</command>, then press <keycap>Return</keycap>.</para>
+            <tip>
+              <para>To view available command line options,
+type <command>&cmd; --help</command>, then press <keycap>Return</keycap>.</para>
+            </tip>
     		</listitem>
     	</varlistentry>
     </variablelist>
