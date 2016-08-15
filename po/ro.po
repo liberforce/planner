@@ -6,9 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: planner\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=planner"
-"&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-12-06 11:24+0000\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=planner&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2015-05-18 18:28+0000\n"
 "PO-Revision-Date: 2015-05-18 20:25+0200\n"
 "Last-Translator: Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>\n"
 "Language-Team: Gnome Romanian Translation Team\n"
@@ -262,7 +262,7 @@ msgstr "_Start:"
 
 #: ../data/glade/project-properties.glade.h:4
 msgid "_Organization:"
-msgstr "_Organizaţie:"
+msgstr "_Organizație:"
 
 #: ../data/glade/project-properties.glade.h:5
 msgid "_Manager:"
@@ -511,8 +511,8 @@ msgstr ""
 #: ../data/planner.desktop.in.in.h:5
 msgid "Gantt;Chart;Critical path;Relationship;Dependency;WBS;"
 msgstr ""
-"Gantt;Chart;Critical "
-"path;Relationship;Dependency;WBS;Relații;Diagramă;Diagrame"
+"Gantt;Chart;Critical path;Relationship;Dependency;WBS;Relații;Diagramă;"
+"Diagrame"
 
 #: ../data/planner.schemas.in.h:1
 msgid "Highlight critical path in Gantt view"
@@ -2237,7 +2237,7 @@ msgstr "_Ieșire"
 
 #: ../src/planner-window.c:255
 msgid "Exit the program"
-msgstr "Ieşire din program"
+msgstr "Ieșire din program"
 
 #: ../src/planner-window.c:259
 msgid "_Edit"
@@ -2364,8 +2364,10 @@ msgstr "Dacă nu salvați, modificările făcute în ultima oră vor fi anulate.
 msgid "If you don't save, changes made the last %d hour will be discarded."
 msgid_plural ""
 "If you don't save, changes made the last %d hours will be discarded."
-msgstr[0] "Dacă nu salvați, modificările făcute în ultima %d oră vor fi anulate."
-msgstr[1] "Dacă nu salvați, modificările făcute în ultimele %d ore vor fi anulate."
+msgstr[0] ""
+"Dacă nu salvați, modificările făcute în ultima %d oră vor fi anulate."
+msgstr[1] ""
+"Dacă nu salvați, modificările făcute în ultimele %d ore vor fi anulate."
 msgstr[2] ""
 "Dacă nu salvați, modificările făcute în ultimele %d de ore vor fi anulate."
 
@@ -2404,8 +2406,8 @@ msgstr ""
 "Ați deschis un fișier care a fost salvat cu o versiune veche al lui "
 "Planificator.\n"
 "\n"
-"La încărcarea fișierelor vechi, toate sarcinile vor utiliza restricția  „"
-"Trebuie să înceapă la”, din moment ce versiunea veche nu era capabilă în "
+"La încărcarea fișierelor vechi, toate sarcinile vor utiliza restricția  "
+"„Trebuie să înceapă la”, din moment ce versiunea veche nu era capabilă în "
 "întregime de replanificare automată. Pentru a utiliza această "
 "funcționalitate, ar trebui să adăugați relații de predecesor între sarcinile "
 "dependete unele de altele.\n"
