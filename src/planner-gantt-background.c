@@ -389,7 +389,7 @@ gantt_background_realize (GnomeCanvasItem *item)
 	priv->timeline_gc = gdk_gc_new (item->canvas->layout.bin_window);
 	gdk_gc_set_foreground (priv->timeline_gc, &color);
 	gdk_gc_set_line_attributes (priv->timeline_gc,
-				    0,
+				    1,
 				    GDK_LINE_ON_OFF_DASH,
 				    GDK_CAP_BUTT,
 				    GDK_JOIN_MITER);
@@ -398,7 +398,7 @@ gantt_background_realize (GnomeCanvasItem *item)
 	priv->start_gc = gdk_gc_new (item->canvas->layout.bin_window);
 	gdk_gc_set_foreground (priv->start_gc, &color);
 	gdk_gc_set_line_attributes (priv->start_gc,
-				    0,
+				    1,
 				    GDK_LINE_ON_OFF_DASH,
 				    GDK_CAP_BUTT,
 				    GDK_JOIN_MITER);

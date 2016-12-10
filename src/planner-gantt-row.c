@@ -942,7 +942,7 @@ static void
 gantt_row_setup_frame_gc (PlannerGanttRow *row, gboolean highlight)
 {
 	gdk_gc_set_line_attributes (row->priv->frame_gc,
-				    0,
+				    1,
 				    highlight ? GDK_LINE_ON_OFF_DASH : GDK_LINE_SOLID,
 				    GDK_CAP_BUTT,
 				    GDK_JOIN_MITER);
@@ -1788,7 +1788,7 @@ gantt_row_draw (GnomeCanvasItem *item,
  				gdk_gc_set_foreground (priv->frame_gc, &color);
 
  				gdk_gc_set_line_attributes (priv->frame_gc,
- 								0,
+								1,
  								GDK_LINE_ON_OFF_DASH,
  								GDK_CAP_BUTT,
  								GDK_JOIN_MITER);
@@ -1857,7 +1857,7 @@ gantt_row_draw (GnomeCanvasItem *item,
 				gdk_gc_set_foreground (priv->frame_gc, &color);
 
 				gdk_gc_set_line_attributes (priv->frame_gc,
-								0,
+								1,
 								GDK_LINE_ON_OFF_DASH,
 								GDK_CAP_BUTT,
 								GDK_JOIN_MITER);
