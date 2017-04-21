@@ -790,7 +790,7 @@ usage_row_realize (GnomeCanvasItem * item)
 
         priv->frame_gc = gdk_gc_new (item->canvas->layout.bin_window);
         gdk_gc_set_line_attributes (priv->frame_gc,
-                                    0,
+                                    1,
                                     GDK_LINE_SOLID,
                                     GDK_CAP_BUTT, GDK_JOIN_MITER);
 }

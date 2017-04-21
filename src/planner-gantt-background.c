@@ -380,7 +380,7 @@ gantt_background_realize (GnomeCanvasItem *item)
 	priv->border_gc = gdk_gc_new (item->canvas->layout.bin_window);
 	gdk_gc_set_foreground (priv->border_gc, &color);
 	gdk_gc_set_line_attributes (priv->border_gc,
-				    0,
+				    1,
 				    GDK_LINE_SOLID,
 				    GDK_CAP_BUTT,
 				    GDK_JOIN_MITER);
@@ -407,7 +407,7 @@ gantt_background_realize (GnomeCanvasItem *item)
 	priv->guidelines_gc = gdk_gc_new (item->canvas->layout.bin_window);
 	gdk_gc_set_foreground (priv->guidelines_gc, &color);
 	gdk_gc_set_line_attributes (priv->guidelines_gc,
-				    0,
+				    1,
 				    GDK_LINE_SOLID,
 				    GDK_CAP_BUTT,
 				    GDK_JOIN_MITER);

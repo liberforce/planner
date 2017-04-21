@@ -741,7 +741,7 @@ relation_arrow_draw (GnomeCanvasItem *item,
 
 	gc = gdk_gc_new (drawable);
 	gdk_gc_set_line_attributes (gc,
-				    0,
+				    1,
 				    GDK_LINE_SOLID,
 				    GDK_CAP_BUTT,
 				    GDK_JOIN_MITER);
