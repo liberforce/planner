@@ -21,8 +21,6 @@ main (gint argc, gchar **argv)
 	MrpTask        *root;
 	MrpRelation    *relation;
 
-        g_type_init ();
-
 	app = mrp_application_new ();
 
 	project_start = mrp_time_from_string ("20020218", NULL);

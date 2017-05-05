@@ -227,8 +227,6 @@ main (gint argc, gchar **argv)
 		NULL
 	};
 
-        g_type_init ();
-
 	app = mrp_application_new ();
 
 	i = 0;

@@ -119,8 +119,6 @@ main (gint argc, gchar **argv)
 {
 	ActionHistory action_history;
 
-        g_type_init ();
-
 	PlannerCmdManager *cmd_manager = planner_cmd_manager_new ();
 
 	/* Initialise the action history */

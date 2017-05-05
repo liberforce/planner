@@ -17,8 +17,6 @@ main (gint argc, gchar **argv)
         MrpDay         *day_a, *day_b, *day_c, *def_1_id;
         GList          *l = NULL;
 
-        g_type_init ();
-
 	app = mrp_application_new ();
 
 	project = mrp_project_new (NULL);
