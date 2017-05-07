@@ -134,8 +134,8 @@ planner_scale_format_time (mrptime            t,
 					       mrp_time2_get_week_number (t2, NULL));
 			break;
 		case PLANNER_SCALE_FORMAT_LONG:
-			/* i18n: Week, year. */
 			week = mrp_time2_get_week_number (t2, &year),
+			/* i18n: Week, year. */
 			str = g_strdup_printf (_("Week %d, %d"),
 					       week,
 					       year);

@@ -185,9 +185,9 @@ mpm_get_value (GtkTreeModel *tree_model,
 
 	case PREDECESSOR_COL_TYPE:
                 g_value_init (value, G_TYPE_STRING);
-		/* i18n: finish-to-start, not sure if it should be translated... */
 		switch (mrp_relation_get_relation_type (relation)) {
 		case MRP_RELATION_FS:
+			/* i18n: finish-to-start, not sure if it should be translated... */
 			g_value_set_string (value, _("FS"));
 			break;
 		case MRP_RELATION_FF:
