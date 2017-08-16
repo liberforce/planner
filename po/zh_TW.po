@@ -499,7 +499,7 @@ msgstr "處理專案的工作、資源以及成本"
 
 #: ../data/planner.desktop.in.in.h:5
 msgid "Gantt;Chart;Critical path;Relationship;Dependency;WBS;"
-msgstr "甘特圖;圖表;關鍵路徑;關係;依存關係;工作分解結構(WBS)"
+msgstr "甘特圖;圖表;關鍵路徑;關係;依存關係;工作分解結構(WBS);"
 
 #: ../data/planner.schemas.in.h:1
 msgid "Highlight critical path in Gantt view"
