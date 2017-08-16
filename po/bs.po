@@ -506,7 +506,7 @@ msgstr "Upravljanje zadacima, resursima i troškovima projekata"
 
 #: ../data/planner.desktop.in.in.h:5
 msgid "Gantt;Chart;Critical path;Relationship;Dependency;WBS;"
-msgstr "Ganttov;Dijagram;CPM;Odnos;Zavisnost;WBS"
+msgstr "Ganttov;Dijagram;CPM;Odnos;Zavisnost;WBS;"
 
 #: ../data/planner.schemas.in.h:1
 msgid "Highlight critical path in Gantt view"
