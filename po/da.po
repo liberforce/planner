@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: planner\n"
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=planner&keywords=I18N+L10N&component=General\n"
-"POT-Creation-Date: 2017-04-08 15:29+0000\n"
+"POT-Creation-Date: 2017-11-02 12:00+0000\n"
 "PO-Revision-Date: 2012-04-14 18:29+0200\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -121,15 +121,15 @@ msgstr "Kalenderredigering"
 
 #: ../data/glade/calendar-dialog.glade.h:16
 msgid "_New..."
-msgstr "_Ny..."
+msgstr "_Ny …"
 
 #: ../data/glade/calendar-dialog.glade.h:17
 msgid "Working time..."
-msgstr "Arbejdstid..."
+msgstr "Arbejdstid …"
 
 #: ../data/glade/calendar-dialog.glade.h:18
 msgid "Default week..."
-msgstr "Standard-uge..."
+msgstr "Standard-uge …"
 
 #: ../data/glade/calendar-dialog.glade.h:19
 msgid "Use working time from derived calendar"
@@ -281,7 +281,7 @@ msgstr "_Kalender:"
 
 #: ../data/glade/project-properties.glade.h:7
 msgid "Select..."
-msgstr "Vælg..."
+msgstr "Vælg …"
 
 #: ../data/glade/project-properties.glade.h:8
 msgid "_Phase:"
@@ -338,11 +338,11 @@ msgid ""
 "calendar of the project, select 'None'. "
 msgstr ""
 "Vælg en kalender som bruges til ressourcen. Hvis du vil bruge projektets "
-"standardkalender, vælg \"Ingen\"."
+"standardkalender, vælg “Ingen”."
 
 #: ../data/glade/resource-dialog.glade.h:11
 msgid "Edit Calendars..."
-msgstr "Rediger kalendere ..."
+msgstr "Rediger kalendere …"
 
 #: ../data/glade/resource-dialog.glade.h:12
 msgid "Calendar"
@@ -673,12 +673,12 @@ msgstr "Standard"
 #: ../libplanner/mrp-project.c:715
 #, c-format
 msgid "Invalid URI: '%s'"
-msgstr "Ugyldig URI: \"%s\""
+msgstr "Ugyldig URI: “%s”"
 
 #: ../libplanner/mrp-project.c:758
 #, c-format
 msgid "Couldn't find a suitable file module for loading '%s'"
-msgstr "Kunne ikke finde et passende filmodul til indlæsning af \"%s\""
+msgstr "Kunne ikke finde et passende filmodul til indlæsning af “%s”"
 
 #: ../libplanner/mrp-project.c:779 ../libplanner/mrp-project.c:1063
 #, c-format
@@ -694,7 +694,7 @@ msgstr "Ugyldig URI."
 #: ../libplanner/mrp-project.c:957
 #, c-format
 msgid "Unable to find file writer identified by '%s'"
-msgstr "Ikke muligt at finde filskriver identificeret af \"%s\""
+msgstr "Ikke muligt at finde filskriver identificeret af “%s”"
 
 #: ../libplanner/mrp-project.c:1020
 #, c-format
@@ -751,7 +751,7 @@ msgstr "Ugyldig Unicode"
 #: ../libplanner/mrp-sql.c:2258
 #, c-format
 msgid "Connection to database '%s' failed.\n"
-msgstr "Forbindelse til databasen \"%s\" mislykkedes.\n"
+msgstr "Forbindelse til databasen “%s” mislykkedes.\n"
 
 #: ../libplanner/mrp-sql.c:2263
 #, c-format
@@ -759,7 +759,7 @@ msgid ""
 "Connection to database '%s' failed.\n"
 "%s"
 msgstr ""
-"Forbindelse til databasen \"%s\" mislykkedes.\n"
+"Forbindelse til databasen “%s” mislykkedes.\n"
 "%s"
 
 #: ../libplanner/mrp-sql.c:2272 ../libplanner/mrp-sql.c:3711
@@ -777,13 +777,13 @@ msgid ""
 "The project '%s' has been changed by the user '%s' since you opened it. Do "
 "you want to save anyway?"
 msgstr ""
-"Projektet \"%s\" er blevet ændret af brugeren \"%s\", siden du åbnede det. "
-"Vil du gemme alligevel?"
+"Projektet “%s” er blevet ændret af brugeren “%s”, siden du åbnede det. Vil "
+"du gemme alligevel?"
 
 #: ../libplanner/mrp-sql.c:3704
 #, c-format
 msgid "Connection to database '%s' failed."
-msgstr "Forbindelse til databasen \"%s\" mislykkedes."
+msgstr "Forbindelse til databasen “%s” mislykkedes."
 
 #: ../libplanner/mrp-storage-sql.c:206
 #, c-format
@@ -926,7 +926,7 @@ msgstr "På den bestemte dato"
 #: ../src/planner-cmd-manager.c:227
 #, c-format
 msgid "Undo '%s'"
-msgstr "Fortryd \"%s\""
+msgstr "Fortryd “%s”"
 
 #: ../src/planner-cmd-manager.c:229
 msgid "Undo"
@@ -935,7 +935,7 @@ msgstr "Fortryd"
 #: ../src/planner-cmd-manager.c:239
 #, c-format
 msgid "Redo '%s'"
-msgstr "Omgør \"%s\""
+msgstr "Omgør “%s”"
 
 #: ../src/planner-cmd-manager.c:241
 msgid "Redo"
@@ -944,12 +944,12 @@ msgstr "Omgør"
 #: ../src/planner-day-type-dialog.c:499
 #, c-format
 msgid "Add day type \"%s\""
-msgstr "Tilføj dagtypen \"%s\""
+msgstr "Tilføj dagtypen “%s”"
 
 #: ../src/planner-day-type-dialog.c:560
 #, c-format
 msgid "Remove day type \"%s\""
-msgstr "Fjern dagtypen \"%s\""
+msgstr "Fjern dagtypen “%s”"
 
 #: ../src/planner-default-week-dialog.c:42
 msgid "Monday"
@@ -1193,7 +1193,7 @@ msgstr "Intet navn"
 #: ../src/planner-gantt-row.c:2411
 #, c-format
 msgid "Make task '%s' a predecessor of '%s'"
-msgstr "Sæt aktivitet \"%s\" som forgænger til \"%s\""
+msgstr "Sæt aktivitet “%s” som forgænger til “%s”"
 
 #: ../src/planner-gantt-row.c:3443 ../src/planner-task-dialog.c:455
 #: ../src/planner-task-tree.c:259 ../src/planner-task-tree.c:941
@@ -1210,7 +1210,7 @@ msgstr "Indsæt en ny aktivitet"
 
 #: ../src/planner-gantt-view.c:141 ../src/planner-task-view.c:122
 msgid "In_sert Tasks..."
-msgstr "Ind_sæt aktiviteter..."
+msgstr "Ind_sæt aktiviteter …"
 
 #: ../src/planner-gantt-view.c:144 ../src/planner-task-view.c:125
 msgid "_Remove Task"
@@ -1222,7 +1222,7 @@ msgstr "Slet de markerede aktiviteter"
 
 #: ../src/planner-gantt-view.c:147
 msgid "_Edit Task Properties..."
-msgstr "_Rediger aktivitetsegenskaber..."
+msgstr "_Rediger aktivitetsegenskaber …"
 
 #: ../src/planner-gantt-view.c:150 ../src/planner-resource-view.c:248
 #: ../src/planner-task-view.c:131
@@ -1438,7 +1438,7 @@ msgstr "Vis resultat i browser"
 #: ../src/planner-xml-planner-plugin.c:124
 #, c-format
 msgid "File \"%s\" exists, do you want to overwrite it?"
-msgstr "Filen \"%s\" findes allerede, vil du overskrive den?"
+msgstr "Filen “%s” findes allerede, vil du overskrive den?"
 
 #: ../src/planner-main.c:44
 msgid "Create the initial window with the given geometry."
@@ -1469,11 +1469,11 @@ msgstr ""
 #: ../src/planner-main.c:99
 #, c-format
 msgid "Invalid geometry string \"%s\"\n"
-msgstr "Ugyldig geometristreng \"%s\"\n"
+msgstr "Ugyldig geometristreng “%s”\n"
 
 #: ../src/planner-msp-plugin.c:49
 msgid "MS Project XML..."
-msgstr "MS Project XML..."
+msgstr "MS Project XML …"
 
 #: ../src/planner-msp-plugin.c:49
 msgid "Import an MS Project XML file"
@@ -1506,8 +1506,9 @@ msgstr "Fjern fase"
 #: ../src/planner-plugin-loader.c:40
 #, c-format
 msgid "Could not open plugin file '%s'\n"
-msgstr "Kunne ikke åbne udvidelsesmodulfilen \"%s\"\n"
+msgstr "Kunne ikke åbne udvidelsesmodulfilen “%s”\n"
 
+#. i18n: finish-to-start, not sure if it should be translated...
 #: ../src/planner-predecessor-model.c:191 ../src/planner-task-dialog.c:2211
 msgid "FS"
 msgstr "FS"
@@ -1578,7 +1579,7 @@ msgstr "Egenskabsnavnet skal begynde med et bogstav."
 #: ../src/planner-property-dialog.c:393
 #, c-format
 msgid "Do you really want to remove the property '%s' from the project?"
-msgstr "Vil du virkelig fjerne egenskaben \"%s\" fra projektet?"
+msgstr "Vil du virkelig fjerne egenskaben “%s” fra projektet?"
 
 #: ../src/planner-project-properties.c:1557
 msgid "Could not create properties dialog."
@@ -1586,7 +1587,7 @@ msgstr "Kunne ikke oprette egenskabsdialog."
 
 #: ../src/planner-project-properties.c:1591
 msgid "Date..."
-msgstr "Dato..."
+msgstr "Dato …"
 
 #: ../src/planner-project-properties.c:1935
 msgid "Add project property"
@@ -1683,7 +1684,7 @@ msgstr "Indsæt en ny ressource"
 
 #: ../src/planner-resource-view.c:236
 msgid "In_sert Resources..."
-msgstr "Ind_sæt ressourcer..."
+msgstr "Ind_sæt ressourcer …"
 
 #: ../src/planner-resource-view.c:239
 msgid "_Remove Resource"
@@ -1695,7 +1696,7 @@ msgstr "Fjern den markerede ressource"
 
 #: ../src/planner-resource-view.c:242
 msgid "_Edit Resource Properties..."
-msgstr "_Rediger ressourceegenskaber ..."
+msgstr "_Rediger ressourceegenskaber …"
 
 #: ../src/planner-resource-view.c:245
 msgid "Edit _Groups"
@@ -1707,7 +1708,7 @@ msgstr "Rediger ressourcegrupper"
 
 #: ../src/planner-resource-view.c:251
 msgid "Edit _Custom Properties..."
-msgstr "Rediger _tilpassede egenskaber ..."
+msgstr "Rediger _tilpassede egenskaber …"
 
 #: ../src/planner-resource-view.c:269
 msgid "/_Insert resource"
@@ -1719,7 +1720,7 @@ msgstr "/_Fjern ressource"
 
 #: ../src/planner-resource-view.c:275 ../src/planner-usage-tree.c:102
 msgid "/_Edit resource..."
-msgstr "/_Rediger ressource ..."
+msgstr "/_Rediger ressource …"
 
 #: ../src/planner-resource-view.c:463
 msgid "_Resources"
@@ -1756,6 +1757,7 @@ msgstr "U %d"
 msgid "Week %d"
 msgstr "uge %d"
 
+#. i18n: Week, year.
 #: ../src/planner-scale-utils.c:139
 #, c-format
 msgid "Week %d, %d"
@@ -1793,7 +1795,7 @@ msgstr "%04d, H%d"
 
 #: ../src/planner-sql-plugin.c:93
 msgid "Open from Database..."
-msgstr "Åbn fra database ..."
+msgstr "Åbn fra database …"
 
 #: ../src/planner-sql-plugin.c:94
 msgid "Open a project from a database"
@@ -1854,7 +1856,7 @@ msgstr "Forbindelse til databasen '%s@%s' mislykkedes."
 #: ../src/planner-sql-plugin.c:708
 #, c-format
 msgid "Test to tables in database '%s' failed."
-msgstr "Test af tabeller i databasen \"%s\" mislykkedes."
+msgstr "Test af tabeller i databasen “%s” mislykkedes."
 
 #: ../src/planner-sql-plugin.c:810
 msgid "ID"
@@ -1956,7 +1958,7 @@ msgstr "Kan ikke tilføje forgænger, da ingen aktivitet er markeret."
 
 #: ../src/planner-task-dialog.c:2457
 msgid "Change..."
-msgstr "Ændr..."
+msgstr "Ændr …"
 
 #: ../src/planner-task-dialog.c:2631
 msgid "Assigned"
@@ -1992,11 +1994,11 @@ msgstr "/_Ophæv aktivitetens forbindelser"
 
 #: ../src/planner-task-popup.c:68
 msgid "/Assign _resources..."
-msgstr "/_Tildel ressourcer ..."
+msgstr "/_Tildel ressourcer …"
 
 #: ../src/planner-task-popup.c:71 ../src/planner-usage-tree.c:105
 msgid "/_Edit task..."
-msgstr "/_Rediger aktivitet ..."
+msgstr "/_Rediger aktivitet …"
 
 #: ../src/planner-task-tree.c:561
 msgid "Remove task"
@@ -2082,7 +2084,7 @@ msgstr "_Rediger aktivitet"
 
 #: ../src/planner-task-view.c:155
 msgid "_Edit Custom Properties..."
-msgstr "_Rediger tilpassede egenskaber ..."
+msgstr "_Rediger tilpassede egenskaber …"
 
 #: ../src/planner-task-view.c:301
 msgid "Tasks"
@@ -2150,7 +2152,7 @@ msgstr "Rediger kolonner for ressourceforbrug"
 #: ../src/planner-util-win32.c:45
 #, c-format
 msgid "Unable to open '%s'"
-msgstr "Kan ikke åbne \"%s\""
+msgstr "Kan ikke åbne “%s”"
 
 #: ../src/planner-util-win32.c:72
 msgid "Unable to open help file"
@@ -2170,7 +2172,7 @@ msgstr "Opret et nyt projekt"
 
 #: ../src/planner-window.c:224
 msgid "_Open..."
-msgstr "_Åbn..."
+msgstr "_Åbn …"
 
 #: ../src/planner-window.c:224
 msgid "Open a project"
@@ -2198,7 +2200,7 @@ msgstr "Ek_sportér"
 
 #: ../src/planner-window.c:240
 msgid "Save _As..."
-msgstr "Gem so_m ..."
+msgstr "Gem so_m …"
 
 #: ../src/planner-window.c:240
 msgid "Save the current project with a different name"
@@ -2206,7 +2208,7 @@ msgstr "Gem det aktuelle projekt med et andet navn"
 
 #: ../src/planner-window.c:243
 msgid "Page Set_up..."
-msgstr "Side_opsætning ..."
+msgstr "Side_opsætning …"
 
 #: ../src/planner-window.c:243
 msgid "Setup the page settings for your current printer"
@@ -2214,7 +2216,7 @@ msgstr "Angiv sideopsætning for din aktuelle printer"
 
 #: ../src/planner-window.c:246
 msgid "_Print..."
-msgstr "_Udskriv ..."
+msgstr "_Udskriv …"
 
 #: ../src/planner-window.c:246
 msgid "Print the current project"
@@ -2319,7 +2321,7 @@ msgstr "Om dette program"
 #: ../src/planner-window.c:692
 #, c-format
 msgid "Switch to the view \"%s\""
-msgstr "Skift til visningen \"%s\""
+msgstr "Skift til visningen “%s”"
 
 #: ../src/planner-window.c:862
 msgid "Open a File"
@@ -2378,7 +2380,7 @@ msgstr[1] "Hvis du ikke gemmer, mistes de seneste %d timers ændringer."
 #: ../src/planner-window.c:1363
 #, c-format
 msgid "Save changes to document '%s' before closing?"
-msgstr "Gem ændringerne i dokumentet \"%s\" inden det lukkes?"
+msgstr "Gem ændringerne i dokumentet “%s” inden det lukkes?"
 
 #: ../src/planner-window.c:1388
 msgid "C_lose without saving"
@@ -2409,15 +2411,15 @@ msgid ""
 msgstr ""
 "Du har åbnet en fil som blev gemt med en ældre udgave af Planner.\n"
 "\n"
-"Når gamle filder læses ind, sættes restriktionen \"Skal starte\", eftersom "
-"den gamle versionen ikke fuldt ud understøtter automatisk skemalægning. For "
-"at udnytte denne nye funktion, anbefaler vi at du forbinder de aktiviteter, "
-"som afhænger af andre.\n"
+"Når gamle filder læses ind, sættes restriktionen “Skal starte”, eftersom den "
+"gamle versionen ikke fuldt ud understøtter automatisk skemalægning. For at "
+"udnytte denne nye funktion, anbefaler vi at du forbinder de aktiviteter, som "
+"afhænger af andre.\n"
 "\n"
 "Du kan gøre det ved at klikke på forgængeren og træk til efterfølgeren.\n"
 "\n"
-"Når dette er, kan du fjerne alle restriktioner ved at vælge \"Fjern alle "
-"restriktioner\" i \"Redigér\"-menuen."
+"Når dette er, kan du fjerne alle restriktioner ved at vælge “Fjern alle "
+"restriktioner” i “Redigér”-menuen."
 
 #. Hack.
 #: ../src/planner-window.c:1797
