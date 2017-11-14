@@ -579,6 +579,7 @@ old_xml_read_overridden_day_type (MrpParser   *parser,
 	MrpDay     *mrp_day;
 	GList      *intervals = NULL;
 	xmlNodePtr  child;
+	int         n_elem_read;
 
 	if (strcmp (day->name, "overridden-day-type") != 0){
 		return;
@@ -595,15 +596,17 @@ old_xml_read_overridden_day_type (MrpParser   *parser,
 			mrptime      start, end;
 
 			str = old_xml_get_string (child, "start");
-			if (sscanf (str, "%02d%02d", &hour, &min) != 2) {
-				g_free (str);
+			n_elem_read = sscanf (str, "%02d%02d", &hour, &min);
+			g_free (str);
+			if (n_elem_read != 2) {
 				continue;
 			}
 			start = hour * 60 * 60 + min * 60;
 
 			str = old_xml_get_string (child, "end");
-			if (sscanf (str, "%02d%02d", &hour, &min) != 2) {
-				g_free (str);
+			n_elem_read = sscanf (str, "%02d%02d", &hour, &min);
+			g_free (str);
+			if (n_elem_read != 2) {
 				continue;
 			}
 			end = hour * 60 * 60 + min * 60;
